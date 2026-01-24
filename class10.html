@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Class10</title>
+        <style>
+            body {
+                font-family: 'Arial, sans-serif';
+                background-color: rgb(7, 7, 243);
+                color: rgb(240, 238, 238);
+            }
+            a{
+                color: green;
+                text-decoration: none;
+            }
+            a:hover{
+                color: yellow;
+            }
+            ul>li{
+               font-weight: bold;
+            }
+            h1{
+                background-color: rgba(186, 31, 23, 0.425) ;
+                padding:10px;
+                border-radius: 5px;
+            }
+            ul li:hover {
+                color: orange;
+            }
+            ul li:nth-child(3) {
+                background-color: chocolate;
+            }
+             ul li::before {
+                content: "🚀 ";
+             }
+               ul li::after {
+                content: " 🌟";
+             }
+             a::after {
+                content: " 🌟";
+             }
+             p::first-letter {
+                font-size: 200%;
+                color: red;
+             }
+        </style>
+    </head>
+    <body>
+        <h1>Welocome to Space Explore's Club</h1>
+        <ul>
+            <li>Moon Mission</li>
+            <li>Mars Rovers</li>
+            <li>International Space Station</li>
+            <li>Telescopes and Stars</li>
+            <li>Space Exploration</li>
+            <li>Black Holes Mysteries</li>
+        </ul>
+        <p>Space exploration has always captivated human imagination. </p>
+        <p>Join us as we delve into the wonders of the universe!</p>
+        <a href="#">Join our Mission.</a>
+        <a href="#">Latest Space News</a>
+        <a href="#">Gallery of the Universe</a>
+    </body>
+</html>
